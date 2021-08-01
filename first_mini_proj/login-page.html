@@ -9,23 +9,25 @@
 </head>
 <body>
     <main id="main-holder">
-        <h1 id="login-header">Login</h1>
+        <h1 id="login-header">Login to continue</h1>
 
         
 
         <form id="login-form">
-            <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+            <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" onfocus="myFunction()">
+            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" onfocus="myFunction()">
             <input type="submit" value="login" id="login-form-submit">
         </form>
 
         <div id="login-error-msg-holder">
-            <p id="login-error-msg"> Invalid username and/or password
+            <p id="login-error-msg">
             </p>
-            <p id="login-error-msg-no-user"> Please enter username
+            <!-- <p id="login-error-msg"> Invalid username and/or password
+            </p> -->
+            <!-- <p id="login-error-msg-no-user"> Please enter username
             </p>
             <p id="login-error-msg-no-password"> Please enter password
-            </p>
+            </p> -->
         </div>
 
     </main>
