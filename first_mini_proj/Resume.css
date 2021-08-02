@@ -60,9 +60,9 @@ body{
     height: auto;
 }
 
-#resume{
-    /* color: whitesmoke; */
-}
+/* #resume{
+    color: whitesmoke;
+} */
 
 #resume-slot1{
     width: 22%;
@@ -142,9 +142,7 @@ body{
     color: #201d1d;
 }
 
-#slot-skills{
 
-}
 #skills-header{
     color: #4685c6;
     font-weight:bold;
